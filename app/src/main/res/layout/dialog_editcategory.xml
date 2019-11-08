@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvmatheloai"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="mã thể loại:"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtmatheloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/tvmatheloai" />
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_below="@id/edtmatheloai"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="tên thể loại:"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_below="@id/edtmatheloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/tvmatheloai" />
+    <TextView
+        android:id="@+id/tvmota"
+        android:layout_below="@id/edtname"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="mô tả:"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtmota"
+        android:layout_below="@id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/tvmatheloai" />
+    <TextView
+        android:id="@+id/tvvitri"
+        android:layout_below="@id/edtmota"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Vị trí:"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtvitri"
+        android:layout_below="@id/edtmota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/tvmatheloai" />
+
+</RelativeLayout>

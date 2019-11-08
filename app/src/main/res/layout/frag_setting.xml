@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/img_set_User"
+        android:layout_width="131dp"
+        android:layout_height="114dp"
+        android:src="@drawable/settinguser" />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/setThongtin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_set_User"
+        android:layout_marginTop="8dp"
+        android:text="thông tin tài khoản" />
+
+    <ImageView
+        android:id="@+id/imgsetPass"
+        android:layout_toRightOf="@+id/img_set_User"
+        android:layout_marginLeft="16dp"
+        android:layout_width="130dp"
+        android:layout_height="116dp"
+        android:src="@drawable/pass" />
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/img_set_User"
+        android:id="@+id/tvsetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgsetPass"
+        android:layout_marginTop="8dp"
+        android:text="Đổi mật khẩu" />
+    <ImageView
+        android:id="@+id/imgdangxuat"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/tvsetpass"
+        android:src="@drawable/dangxuat"
+        android:layout_width="130dp"
+        android:layout_height="116dp"/>
+    <TextView
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="8dp"
+        android:text="Đăng xuất"
+        android:layout_below="@+id/imgdangxuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

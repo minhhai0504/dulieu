@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fr_user">
+
+    <fragment
+        android:id="@+id/fr_user"
+        android:name="com.example.dulieu.ui.nguoidungfrag.UserFrag"
+        android:label="@string/menu_user"
+        tools:layout="@layout/frag_user" />
+
+    <fragment
+        android:id="@+id/fr_book"
+        android:name="com.example.dulieu.ui.bookfrag.BookFragment"
+        android:label="@string/menu_book"
+        tools:layout="@layout/frag_book" />
+
+    <fragment
+        android:id="@+id/fr_category"
+        android:name="com.example.dulieu.ui.category.CategoryFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/frag_category" />
+
+    <fragment
+        android:id="@+id/fr_bill"
+        android:name="com.example.dulieu.ui.billfrag.BillFragment"
+        android:label="@string/menu_bill"
+        tools:layout="@layout/frag_bill" />
+
+    <fragment
+        android:id="@+id/fr_statitic"
+        android:name="com.example.dulieu.ui.statistic.StatisticFragment"
+        android:label="@string/menu_statistic"
+        tools:layout="@layout/frag_statistic" />
+
+    <fragment
+        android:id="@+id/fr_Setting"
+        android:name="com.example.dulieu.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/frag_setting" />
+</navigation>

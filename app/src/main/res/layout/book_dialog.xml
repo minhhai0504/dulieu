@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:id="@+id/tvmasach"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="mã sách" />
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/edtmasasch"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tvmasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvtheloai"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@+id/tvmasach"
+        android:gravity="center"
+        android:text="thể loại" />
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/edttheloai"
+        android:layout_below="@+id/edtmasasch"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tvmasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:id="@+id/tvtensach"
+        android:layout_below="@+id/tvtheloai"
+        android:text="tên sách"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"/>
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/edttensasch"
+        android:layout_below="@+id/edttheloai"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tvmasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:id="@+id/tvsoluong"
+        android:layout_below="@+id/tvtensach"
+        android:text="số lượng"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"/>
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/edtsoluong"
+        android:layout_below="@+id/edttensasch"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tvmasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvtacgia"
+        android:layout_width="55dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/tvsoluong"
+        android:gravity="center"
+        android:text="tác giả" />
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/edttacgia"
+        android:layout_below="@+id/edtsoluong"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tvmasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvgia"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/tvtacgia"
+        android:gravity="center"
+        android:text="giá" />
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/edtgia"
+        android:layout_below="@+id/edttacgia"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tvmasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

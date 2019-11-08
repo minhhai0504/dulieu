@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvmatkhau"
+        android:text="mật khẩu :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtmatkhau"
+        android:layout_below="@+id/tvmatkhau"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/edtmatkhau"
+        android:id="@+id/tvmatkhaumoi"
+        android:text="mật khẩu mới :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtmatkhaumoi"
+        android:layout_below="@+id/tvmatkhaumoi"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/edtmatkhaumoi"
+        android:id="@+id/tvnhaplai"
+        android:text="nhập lại :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtnhaplai"
+        android:layout_below="@+id/tvnhaplai"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

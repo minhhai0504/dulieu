@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fr_user"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_user" />
+        <item
+            android:id="@+id/fr_book"
+            android:icon="@drawable/ic_book"
+            android:title="@string/menu_book" />
+        <item
+            android:id="@+id/fr_category"
+            android:icon="@drawable/ic_category"
+            android:title="@string/menu_category" />
+        <item
+            android:id="@+id/fr_bill"
+            android:icon="@drawable/ic_bill"
+            android:title="@string/menu_bill" />
+        <item
+            android:id="@+id/fr_statitic"
+            android:icon="@drawable/ic_statistic"
+            android:title="@string/menu_statistic" />
+        <item
+            android:id="@+id/fr_Setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_setting" />
+    </group>
+
+
+
+</menu>

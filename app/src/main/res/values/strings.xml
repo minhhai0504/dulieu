@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">dulieu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kudo Junior</string>
+    <string name="nav_header_subtitle">minhhai12anqb@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_user">User</string>
+    <string name="menu_book">Book</string>
+    <string name="menu_category">Category</string>
+    <string name="menu_bill">Bill</string>
+    <string name="menu_statistic">Statistic</string>
+    <string name="menu_setting">Setting</string>
+</resources>

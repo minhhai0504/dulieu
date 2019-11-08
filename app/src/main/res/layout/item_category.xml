@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:padding="8dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/theloai"
+            android:id="@+id/imgtheloaisach"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#317C76"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/tvtheloaisach"
+            android:layout_width="206dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/imgtheloaisach" />
+        <ImageView
+            android:onClick="delete"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/tvtheloaisach"
+            android:src="@drawable/bin"
+            android:id="@+id/imgdelTheloai"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:onClick="editcategory"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/imgdelTheloai"
+            android:src="@drawable/edit"
+            android:id="@+id/imgdeditTheloai"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

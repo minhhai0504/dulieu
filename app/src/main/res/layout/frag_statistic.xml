@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgava"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:src="@drawable/phuongnambook" />
+
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/tvcbmoi"
+        android:layout_width="110dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/imgava"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Ngày hôm nay:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:gravity="center"
+        android:shadowColor="@color/Black"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"
+        android:id="@+id/edttenbill"
+        android:layout_width="289dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/imgava"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/tvcbmoi"
+        android:textColor="#C53B3B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/tvngaymua"
+        android:layout_width="107dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/edttenbill"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="Tuần này:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:gravity="center"
+        android:shadowColor="@color/Black"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"
+        android:id="@+id/edtngaymua"
+        android:layout_width="291dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/edttenbill"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@+id/tvcbmoi"
+        android:textColor="#C53B3B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/tvmasach"
+        android:layout_width="106dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/edtngaymua"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="Tháng này :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:gravity="center"
+        android:shadowColor="@color/Black"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"
+        android:id="@+id/edtmasach"
+        android:layout_width="291dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/edtngaymua"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_toRightOf="@+id/tvcbmoi"
+        android:textColor="#C53B3B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

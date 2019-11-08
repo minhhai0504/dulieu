@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/bill"
+            android:id="@+id/imgAvatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/imgAvatar"
+            android:id="@+id/tvcodebill"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/imgAvatar"
+            android:layout_below="@+id/tvcodebill"
+            android:id="@+id/tvbillday"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginLeft="8dp"
+            android:onClick="delete"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/bin"
+            android:layout_toRightOf="@+id/tvbillday"
+            android:id="@+id/ic_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
