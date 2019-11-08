@@ -14,9 +14,11 @@ public class Login extends AppCompatActivity {
 
 
 //aaaaaa
+    ///kfhkafkaskvd
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        fdfffddffsd
         setContentView(R.layout.activity_login);
         edtUser = findViewById(R.id.edtUser);
         edtPass = findViewById(R.id.edtPass);
